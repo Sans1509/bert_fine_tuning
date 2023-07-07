@@ -9,3 +9,9 @@
 
 The python interpreter required for this project is 
 python_version=="3.10"
+
+
+To increase the accuracy of the model you can change the number of epochs (train on large number of epochs)
+This argument is declared in- 
+   src - fine_tuning - preprocessing - preprocessing.py
+                                     (num_train_epochs=0.00000002)
